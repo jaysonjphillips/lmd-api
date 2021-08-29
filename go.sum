@@ -5,3 +5,8 @@ github.com/gorilla/handlers v1.5.1 h1:9lRY6j8DEeeBT10CvO9hGW0gmky0BprnvDI5vfhUHH
 github.com/gorilla/handlers v1.5.1/go.mod h1:t8XrUpc4KVXb7HGyJ4/cEnwQiaxrX/hz1Zv/4g96P1Q=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/ysugimoto/go-args v0.0.0-20170919163351-95e6aae54c31/go.mod h1:xDVHKLfnzcoR0RzSw2TtE+BiWc8iA8KmXMkZ0GlI9C8=
+github.com/ysugimoto/go-args v1.0.0 h1:xTV4xuAPcTp7ierLvakpl8ZQWCBN5FV5L5VaNmB5WPY=
+github.com/ysugimoto/go-args v1.0.0/go.mod h1:xDVHKLfnzcoR0RzSw2TtE+BiWc8iA8KmXMkZ0GlI9C8=
+github.com/ysugimoto/gov v0.9.0 h1:NH0oEH8IBU8gEg9AVLbtAg2Ph8SFx2mQ8+6fim6+niM=
+github.com/ysugimoto/gov v0.9.0/go.mod h1:HzzBOZRJK92FXQpur4PCH/fIF1aTS35MrlufoacTV/A=
