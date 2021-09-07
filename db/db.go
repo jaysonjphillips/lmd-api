@@ -3,8 +3,8 @@ package db
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"gorm.io/driver/sqlite"
+	"gorm.io/gorm"
 )
 
 var (
@@ -13,7 +13,7 @@ var (
 
 func init() {
 	var err error
-	Conn, err = gorm.Open("sqlite3", "dashboard.db")
+	Conn, err = gorm.Open(sqlite.Open("dashboard.db"), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
 	}
