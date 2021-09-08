@@ -13,6 +13,7 @@ import (
 
 func main() {
 	app := fiber.New()
+	app.Static("/", "./public")
 
 	// setup default api version/base
 	api := app.Group("/api").Group("/v1")
