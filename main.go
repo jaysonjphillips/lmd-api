@@ -13,7 +13,6 @@ import (
 
 func main() {
 	app := fiber.New()
-	app.Static("/", "./public")
 
 	// setup default api version/base
 	api := app.Group("/api").Group("/v1")
@@ -23,6 +22,9 @@ func main() {
 	user.AddUserRoutes(api)
 	auth.AddAuthRoutes(api)
 	storage.AddMovingBoxRoutes(api)
+
+	app.Static("/", "./public")
+	app.Static("*", "./public/index.html")
 
 	port := os.Getenv("PORT")
 

@@ -1,0 +1,1 @@
+web: cd frontend && yarn build && cd .. && bin/phillz-life-dashboard
