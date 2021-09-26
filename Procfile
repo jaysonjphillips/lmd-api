@@ -1,1 +1,1 @@
-web: cd frontend && yarn build && cd .. && bin/phillz-life-dashboard
+web: bin/phillz-life-dashboard
