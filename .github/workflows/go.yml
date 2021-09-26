@@ -16,8 +16,7 @@ jobs:
       uses: actions/setup-node@master
 
     - name: Install Dependencies
-      run: cd frontend
-      run: npm install
+      run: cd frontend && npm install
       
     - name: Build Vue app
       run: npm run build
